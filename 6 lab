@@ -1,0 +1,134 @@
+//// Задача 1
+//#include <iostream>
+//using namespace std;
+//int a, b, b2;
+//int main() {
+//	cout << "a= ";
+//	cin >> a;
+//	cout << "b= ";
+//	cin >> b;
+//
+//	b2 = b;
+//	b = a;
+//	a = b2;
+//	cout << "a= " << a << "\n";
+//	cout << "b= " << b;
+//}
+
+
+
+//// Задача 2
+//#include <iostream>
+//using namespace std;
+//int a, b, c;
+//int main() {
+//	cout << "a= ";
+//	cin >> a;
+//	cout << "b= ";
+//	cin >> b;
+//	cout << "c= ";
+//	cin >> c;
+//	cout << "";
+//
+//	a = a + c;
+//	c = a - c;
+//	a = a - c;
+//	a = a + b;
+//	b = a - b;
+//	a = a - b;
+//	cout << "a= " << a << "\n";
+//	cout << "b= " << b << "\n";
+//	cout << "c= " << c << "\n";
+//}
+
+
+//// Задача 3
+//#include <iostream>
+//using namespace std;
+//int a, b, c;
+//int main() {
+//	cout << "a= ";
+//	cin >> a;
+//	cout << "b= ";
+//	cin >> b;
+//	cout << "c= ";
+//	cin >> c;
+//	cout << "";
+//
+//	a = a + b;
+//	b = a - b;
+//	a = a - b;
+//	a = a + c;
+//	c = a - c;
+//	a = a - c;
+//	cout << "a= " << a << "\n";
+//	cout << "b= " << b << "\n";
+//	cout << "c= " << c << "\n";
+//}
+
+
+//// Задача 4
+//#include <iostream>
+//#include <math.h>
+//using namespace std;
+//int x;
+//int main() {
+//	cout << "x= ";
+//	cin >> x;
+//	
+//	cout << "y = " << 3 * pow(x, 6) - 6 * pow(x, 2) - 7;
+//}
+
+
+
+//// Задача 5
+//#include <iostream>
+//#include <math.h>
+//using namespace std;
+//int x;
+//int main() {
+//	cout << "x= ";
+//	cin >> x;
+//
+//	cout << "y = " << 4 * pow((x - 3), 6) - 7 * pow((x - 3), 3) + 2;
+//}
+
+
+
+//// Задача 6
+//#include <iostream>
+//#include <math.h>
+//using namespace std;
+//int a, x;
+//int main() {
+//	setlocale(LC_ALL, "Russian");
+//	cout << "a= ";
+//	cin >> a;
+//
+//	x = a;
+//	x = x * a; // a в степени 2
+//	x = x * x; // а в степени 4
+//	x = x * x; // a в степени 8
+//	cout << "a в степени 8 = "<< x;
+//}
+
+
+//// Задача 7
+//#include <iostream>
+//#include <math.h>
+//using namespace std;
+//int a, x, y;
+//int main() {
+//	setlocale(LC_ALL, "Russian");
+//	cout << "a= ";
+//	cin >> a;
+//
+//	x = a;
+//	y = a;
+//	x = x * a; // a в степени 2
+//	x = x * x; // а в степени 4
+//	x = x * x; // a в степени 8
+//	x = x * x; // а в степени 16
+//	x = x / y; // а в степени 15
+//	cout << "a в степени 15 = " << x;
+//}
