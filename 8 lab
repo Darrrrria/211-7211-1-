@@ -1,0 +1,78 @@
+/*// Задача 1
+#include <iostream>
+using namespace std;
+int b;
+int k;
+int main() {
+	setlocale(LC_ALL, "Russian");
+	cout << "байты = ";
+	cin >> b;
+	if (b > 1024){
+	    k = b/1024+1;
+	}
+	else{
+	    k = 1;
+	}
+	cout << "килобайт = "<< k;
+}*/
+
+
+/*// Задача 2
+#include <iostream>
+using namespace std;
+int a, b, i;
+int main() {
+	setlocale(LC_ALL, "Russian");
+	cout << "a>b; a = ";
+	cin >> a;
+	cout << "a>b; b = ";
+	cin >> b;
+	i=0;
+	while (a>=b){
+	    a-=b;
+	    i++;
+	}
+	cout << "Количество отрезков b на отрезке a = " << i;
+}*/
+
+
+/*// Задача 3
+#include <iostream>
+using namespace std;
+int a, b;
+int main() {
+	setlocale(LC_ALL, "Russian");
+	cout << "a>b; a = ";
+	cin >> a;
+	cout << "a>b; b = ";
+	cin >> b;
+	cout << "Количество свободной части a = " << a%b;
+}*/
+
+
+/*// Задача 4
+#include <iostream>
+using namespace std;
+int a;
+int main() {
+	setlocale(LC_ALL, "Russian");
+	cout << "a = ";
+	cin >> a;
+    cout << a%10 << a/10;
+}*/
+
+
+/*// Задача 5
+#include <iostream>
+using namespace std;
+int a, a1;
+int main() {
+	setlocale(LC_ALL, "Russian");
+	cout << "a = ";
+	cin >> a;
+    a1 =(a - a%100)/100;
+    a = a%100;
+    cout << a << a1;
+}*/
+
+
