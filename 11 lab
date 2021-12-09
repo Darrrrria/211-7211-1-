@@ -1,0 +1,162 @@
+//// Задача 1
+//#include <iostream>
+//using namespace std;
+//
+//int main() {
+//	setlocale(LC_ALL, "Russian");
+//	int a, b;
+//	cout << "a= ";
+//	cin >> a;
+//	cout << "b= ";
+//	cin >> b;
+//	
+//	if (a != b) {
+//		if (a > b) {
+//			b = a;
+//		}
+//		else {
+//			a = b;
+//		}
+//	}
+//	else {
+//		a = 0;
+//		b = 0;
+//	}
+//	cout << "a= " << a;
+//	cout << "; b= " << b;
+//}
+
+//// Задача 2
+//#include <iostream>
+//using namespace std;
+//
+//int main() {
+//	setlocale(LC_ALL, "Russian");
+//	int a, b, c;
+//	cout << "a= ";
+//	cin >> a;
+//	cout << "b= ";
+//	cin >> b;
+//	cout << "c= ";
+//	cin >> c;
+//
+//	if (b <= c && b <= a) {
+//		cout << a + c;
+//	}
+//	else {
+//		if (a <= c && a <= b) {
+//			cout << b + c;
+//		}
+//		else {
+//			cout << b + a;
+//		}
+//	}
+//}
+
+
+//// Задача 3
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <iostream>
+//using namespace std;
+//int main(void)
+//{
+//	float a, b, c;
+//	cout << "a= ";
+//	cin >> a;
+//	cout << "b= ";
+//	cin >> b;
+//	cout << "c= ";
+//	cin >> c;
+//	if (abs(a - b) < abs(a - c)) {
+//		cout << "b, " << b;
+//	}
+//	else {
+//		cout << "c, " << c;
+//	}
+//}
+
+
+//// Задача 4
+//#include <stdio.h>
+//#include <iostream>
+//using namespace std;
+//int main(void)
+//{
+//	setlocale(LC_ALL, "Russian");
+//	float x, y;
+//	cout << "x= ";
+//	cin >> x;
+//	cout << "y= ";
+//	cin >> y;
+//	if ((x > 0) & (y > 0)) {
+//		cout << "I четверть";
+//	}
+//	else if ((x < 0) & (y > 0)) {
+//		cout << "II четверть";
+//	}
+//	else if ((x < 0) & (y < 0)) {
+//		cout << "III четверть";
+//	}
+//	else {
+//		cout << "IV четверть";
+//	}
+//}
+
+//// Задача 5
+//#include <stdio.h>
+//#include <iostream>
+//using namespace std;
+//int main(void)
+//{
+//    setlocale(LC_ALL, "Russian");
+//    int a;
+//    cout << "a= ";
+//    cin >> a;
+//    if (a == 0) {
+//        cout << "Нулевое ";
+//    }
+//    else {
+//        if (a > 0) {
+//            cout << "Положительное ";
+//        }
+//        else {
+//            cout << "Отрицательное ";
+//        }
+//        if ((a % 2) == 0) {
+//            cout << "четное ";
+//        }
+//        else {
+//            cout << "нечетное ";
+//        }
+//    }
+//    cout << "число";
+//}
+
+//// Задача 6
+//#include<iostream>
+//#include<cmath>
+//using namespace std;
+//int main()
+//{
+//	setlocale(LC_ALL, "Russian");
+//	int a;
+//
+//	cout << "a= ";
+//	cin >> a;
+//	if (a % 2 == 0) {
+//		cout << "четное ";
+//	}
+//	else {
+//		cout << "нечетное ";
+//	}
+//	if (a / 100 > 0 && a / 100 < 10) {
+//		cout << "трехзначное число";
+//	}
+//	else if (a / 10 > 0 && a / 10 < 10) {
+//		cout << "двухзначное число";
+//	}
+//	else if (a / 10 == 0) {
+//		cout << "однозначное число";
+//	}
+//}
