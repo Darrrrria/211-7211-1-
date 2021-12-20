@@ -1,0 +1,86 @@
+//// Задача 1
+//#include <iostream>
+//#include <stdio.h>
+//int n;
+//using namespace std;
+//int main()
+//{
+//	cout << "n= ";
+//	cin >> n;
+//    n %= 3600;
+//	cout << n / 60;
+//	cout << n % 60;
+//
+//    return 0;
+//}
+
+
+//// Задача 2
+//# include <iostream>
+//
+//using namespace std;
+//int main() {
+//	setlocale(LC_ALL, "Russian");
+//	int k;
+//	int n;
+//	cout << "Введите число от 1 до 365:  ";
+//	cin >> k;
+//	n = (k % 7);
+//	cout << "Номер дня недели = " << n << endl;
+//	return 0;
+//}
+
+
+// Задача 3
+//# include <iostream>
+//
+//using namespace std;
+//
+//int main() {
+//	int k;
+//	int n;
+//	cout << "Введите число от 1 до 365:  ";
+//	cin >> k;
+//	n = (k % 7) + 1;
+//	cout << "Номер дня недели = " << n << endl;
+//	return 0;
+//}
+
+
+//Задача 4
+//#include <iostream>
+//using namespace std;
+//
+//int main() {
+//	setlocale(LC_ALL, "Russian");
+//
+//	int A, B, C;
+//	int R1, R2, K;
+//	cout << "A: ";
+//	cin >> A;
+//	cout << "B: ";
+//	cin >> B;
+//	cout << "C: ";
+//	cin >> C;
+//
+//	R1 = A * B;
+//	R2 = C * C;
+//
+//	K = R1 / R2;
+//	cout << "Количество квадратов:" << K;
+//}
+
+//// Задача 5
+//#include <iostream>
+//using namespace std;
+//
+//int main() {
+//	setlocale(LC_ALL, "Russian");
+//
+//	int a, b;
+//	cout << "Целое число:";
+//	cin >> a;
+//	b = (a / 100) + 1;
+//	cout << b;
+//
+//}
